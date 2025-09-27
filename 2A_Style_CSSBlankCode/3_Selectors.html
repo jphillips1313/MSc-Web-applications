@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Selectors </title>
+    <style>
+      div{
+        color: blue;
+      }
+
+      h1,h2,h3{
+        color: green;
+      }
+
+/*      for the nested*/
+      .outer .inner{
+        color: red;
+      }
+
+/*all items purple as everything under
+the li is specified. until li specified in next section */
+      .list > ul >li{
+        color: purple;
+      }
+
+      li{
+        color: yellow;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1> header1 </h1>
+    <h2> header2 </h2>
+    <h3> header3 </h3>
+
+    <div class = "outer">
+      <div class = "mid">
+        <div class = "inner">
+            Direct Parent?
+        </div>
+      </div>
+    </div>
+
+    <div class = "inner">
+        Direct Parent?
+    </div>
+
+
+    <div class="list">
+      <ul>
+        <li> list nest 1 item 1</li>
+        <li> list nest 1 item 2</li>
+        <li>
+          <ul>
+            <li> list nest 2 item 1</li>
+            <li> list nest 2 item 2</li>
+            <li>
+              <ul>
+                <li> list nest 3 item 1</li>
+                <li> list nest 3 item 2</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li> list nest 1 item 3</li>
+        <li> list nest 1 item 4</li>
+      </ul>
+    </div>
+
+
+  </body>
+
+</html>

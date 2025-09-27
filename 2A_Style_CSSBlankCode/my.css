@@ -1,0 +1,45 @@
+/*Elements*/
+  body {
+    color:  green;
+  }
+  h1 {
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    text-align: center;
+  }
+  p {
+    color: blue;
+  }
+
+  /*classes*/
+  .title{
+    font-style: italic;
+  }
+  .title h1{
+    color: red;
+  }
+
+  .content {
+    /*do at position*/
+    width: 60%;
+    float:left;
+    border: solid blue 0pt;
+  }
+
+  /*do at position*/
+  .subContent {
+    width: 20%;
+    float:right
+  }
+
+  /*do at position*/
+  .menus{
+    width: 20%;
+    float:left;
+  }
+
+  /*IDs*/
+  #myInfo{
+    color: coral;
+  }

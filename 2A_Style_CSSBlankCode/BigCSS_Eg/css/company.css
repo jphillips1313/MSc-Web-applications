@@ -1,0 +1,92 @@
+body{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+  color: midnightblue;
+  border-radius: 4px;
+  text-align: left;
+}
+
+p {
+  color: midnightblue;
+}
+
+/* --------------------------*/
+.title{
+  height:100px;
+  font-style: italic;
+  background-image: url("paddleBanner.jpg");
+  background-repeat: no-repeat;
+  background-size:200px;
+  background-position: right;
+}
+.title h1{
+  padding: 25px;
+  color: red;
+
+
+}
+
+/* --------------------------*/
+.main {
+  height: 400px;
+  min-width: 500px;
+  background-color: ghostwhite;
+  border-top-left-radius: 10pt;
+  border-top-right-radius: 10pt;
+}
+
+.content {
+  height:100%;
+  width: 57%;
+  min-width: 200px;
+  background-color: whitesmoke;
+  border-left: black solid 1px;
+  border-right: black solid 1px;
+  padding-left: 1%;
+  padding-right: 1%;
+
+  float: left;
+}
+.content p{
+  color: red;
+  padding: 1%;
+}
+
+
+/* --------------------------*/
+.subContent {
+  height:100%;
+  width: 20%;
+  min-width: 100px;
+  border-top-right-radius: 10pt;
+  background-color: ghostwhite;
+  float:right;
+}
+
+/* --------------------------*/
+.menus{
+  height: 100%;
+  border-top-left-radius: 10pt;
+  background-color: ghostwhite;
+  float:left;
+  width: 20%;
+  min-width: 100px
+}
+.menus a::after {
+  white-space: pre;
+  content:'\A';
+}
+
+footer {
+  clear:both;
+  text-align: center
+}
+footer p{
+  color: whitesmoke;
+}
