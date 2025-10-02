@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Selectors </title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+
+/*      The container*/
+      body{
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+      }
+/*    the items that are in the
+      container     */
+      .a{
+        -webkit-flex: 1 1 200px;
+                flex: 1 1 200px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid black;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <p class="a">a Box</p>
+    <p class="a">a Box</p>
+  </body>
+
+</html>

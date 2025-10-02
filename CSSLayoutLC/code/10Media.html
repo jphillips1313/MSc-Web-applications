@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Selectors </title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+      }
+
+      .main{
+        border: 10px solid black;
+        width:100%;
+        float: left;
+      }
+      .aside{
+        border: 10px solid black;
+        width:100%;
+        float: left;
+      }
+
+      @media screen and (min-width: 600px){
+        .main{
+          width:50%;
+        }
+        .aside{
+          width:50%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class = "main">
+      <p>Box</p>
+    </div>
+    <div class = "aside">
+      <p>Box</p>
+    </div>
+
+  </body>
+
+</html>

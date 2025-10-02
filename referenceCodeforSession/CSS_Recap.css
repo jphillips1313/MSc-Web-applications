@@ -1,0 +1,5 @@
+h2, h3{color: green}
+.wrapper h3{color:purple}
+.wrapper > h3{color:red}
+p::first-letter{font-size:300%}
+#psc:hover{font-size: 300%}
